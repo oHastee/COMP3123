@@ -1,0 +1,79 @@
+/* Center the form on the page */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+/* Style for the form container */
+form {
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form elements styling */
+input[type="text"],
+input[type="email"],
+select {
+  width: calc(100% - 20px); /* Subtract padding */
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for submitted data */
+.submitted-data {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submitted-data p {
+  margin: 5px 0;
+}
